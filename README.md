@@ -5,7 +5,7 @@
 This project recommends movies based on watch history of Netflix users. If you search a movie, system will recommend top 10 movies that are watched by Netflix users alongwith searched movie.
 
 ## Introduction
-This is a movie recommendation system trained on Netflix movies dataset(https://www.kaggle.com/netflix-inc/netflix-prize-data). It uses deep learning technique skip-gram word2vec in order to extract word embeddings from movies corpus. Word embedding is a vector which captures context of the word in corpus and very popular in NLP. Then, similarity of these embeddings is computed and given a movie name, top 10 most watched movies alongside given movie are returned and displayed in streamlit App.
+This is a movie recommendation system trained on [Netflix movies dataset](https://www.kaggle.com/netflix-inc/netflix-prize-data). It uses deep learning technique skip-gram word2vec in order to extract word embeddings from movies corpus. Word embedding is a vector which captures context of the word in corpus and very popular in NLP. Then, similarity of these embeddings is computed and given a movie name, top 10 most watched movies alongside given movie are returned and displayed in streamlit App.
 
 ## About Code
 There are 4 python files;
@@ -36,3 +36,6 @@ preprocessing.py
 training.py
 
 main.py
+## Streamlit Web App
+click [here](https://share.streamlit.io/mazhar18941/netflix-movies-recommeder/main.py) to get movies recommendation based on your interest!
+Please try to search movies from [titles](https://www.kaggle.com/netflix-inc/netflix-prize-data?select=movie_titles.csv) in order to avoid any error.
