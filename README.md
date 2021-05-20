@@ -1,4 +1,6 @@
 # Netflix-Movies-Recommeder
+## Demo
+![Demo](https://github.com/mazhar18941/Netflix-Movies-Recommeder/blob/7f0a546ea1033a8a0e8cc6406fcdfed027ca19f0/gif_demo.gif)
 ## Goal
 This project recommends movies based on watch history of Netflix users. If you search a movie, system will recommend top 10 movies that are watched by Netflix users alongwith searched movie.
 
